@@ -19,7 +19,7 @@ public class XmComEndToEndTests extends BaseTest {
         };
     }
 
-    @Test(dataProvider = "screens", invocationCount = 5)
+    @Test(dataProvider = "screens")
     public void verifyStockTradingConditions(ScreenSize screenSize) {
         HomePage homePage = new HomePage();
         StocksPage stocksPage = new StocksPage();
